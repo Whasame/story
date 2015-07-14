@@ -1,6 +1,26 @@
+<<<<<<< HEAD
 body{
   background-color:#BDBDBD;
 }
 img{
   width: 250px;
 }
+=======
+h1 {
+	margin-left: 50%;
+}
+p {
+	margin-left: 50%;
+}
+html {
+	background: #bdbdbd
+}
+#but1 {
+	margin-left: 33%;
+	margin-top: 1%;
+}
+#but2 {
+	margin-left: 66%;
+	margin-top: -1.5%;
+}
+>>>>>>> e4a8bd2bdb87dbe33f4ab09686c3ff34cb059621
