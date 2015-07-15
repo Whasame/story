@@ -1,7 +1,37 @@
+.nav a {
+  color: #5a5a5a;
+  font-size: 11px;
+  font-weight: bold;
+  padding: 14px 10px;
+  text-transform: uppercase;
+  left:50%;
+}
+.nav li{
+    display:inline;
+}
+.nav a{
+    display:inline-block;
+    padding:10px;
+}
+
 .body {
-	margin-top: 100px;
-	margin-bottom: 200px;
+	margin-top: 10px;
+	margin-bottom: 20px;
 	margin-right: 400px;
 	margin-left: 400px;
 	text-align: center;
+}
+
+.welcome_image{
+    position: relative;
+    top: -20px;
+    max-height: 500px;
+}
+
+.choice_image{
+  max-height: 200px;
+}
+
+.end_image{
+    max-height: 500px;
 }
