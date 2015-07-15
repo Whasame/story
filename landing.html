@@ -1,17 +1,48 @@
 <html>
 <head>
 	<title>Adventure Start</title>
-	<link rel="stylesheet" type="text/css" href="./landingStyle.css">
+	<link rel="stylesheet" type="text/css" href="./bootstrap/bootstrap/css/.css">
+	<link rel="stylesheet" type="text/css" href="./style.css">
 </head>
 <body class="body">
-	<h1>Welcome to your adventure!</h1>
-	<p>You and your wife are going on a trip to Greece. Now you must choose:</p>
-	<a href="./cheapTickets.html">
-		<button>Buy cheap tickets and piss off your wife a bit while saving money</button>
-	</a>
-	<p>| OR |</p>
-	<a href="./expensiveTickets.html">
-		<button>Buy expensive tickets and please your wife while losing money</button>
-	</a>
+	
+	<div class="nav">
+    <div class="container">
+      <ul>
+        <li><a href="#">Back</a></li>
+        <li><a href="#">Home</a></li>
+      </ul>
+<!--       <ul class=pull-right>
+        <li><a href="#">Back</a></li>
+        <li><a href="#">Other Stuff</a></li>
+        <li><a href="#">Help</a></li>
+      </ul>
+ -->    </div>
+  </div>
+
+		<h1>Welcome to your adventure!</h1>
+		<img src="./pictures/welcome.gif" class="welcome_image">
+		<p>You and your wife are going on a trip to Greece. Now you must choose:</p>
+
+	<div class="container">
+    <div class="row">
+        <div class="col-md-5">
+       		<a href="./cheapTickets.html">
+						<button>Buy cheap tickets and piss off your wife a bit while saving money</button>
+						<p><img src="./pictures/economy_class.jpg" class="choice_image"></p>
+					</a>
+        </div>
+        <div class="col-md-2">
+        	<p>| OR |</p>
+        </div>
+        <div class="col-md-5">
+					<a href="./expensiveTickets.html">
+						<button>Buy expensive tickets and please your wife while losing money</button>
+						<p><img src="./pictures/first_class.jpg" class="choice_image"></p>
+					</a>
+        </div>        
+    </div>
+   </div>
+
 </body>
 </html>
