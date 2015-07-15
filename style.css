@@ -25,8 +25,13 @@
 .welcome_image{
     position: relative;
     top: -20px;
+    max-height: 500px;
 }
 
 .choice_image{
   max-height: 200px;
+}
+
+.end_image{
+    max-height: 500px;
 }
